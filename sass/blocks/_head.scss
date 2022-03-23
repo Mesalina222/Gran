@@ -1,0 +1,66 @@
+.head {
+	padding: 425px 0 60px;
+	background: url('../img/bl.jpg')center center/ cover no-repeat;
+	position: relative;
+	z-index: 2;
+
+	&__menu {
+		background-color: #555554;
+		position: absolute;
+		width: 100%;
+		top: 85px;
+		left: 0;
+		z-index: 50;
+	}
+
+	&__flex {
+		display: flex;
+	}
+
+	&__img {
+		margin-left: -87px;
+		margin-top: -205px;
+	}
+
+	&__title {
+		margin-bottom: 30px;
+	}
+
+	&__logo {
+		text-align: right;
+		margin-top: 115px;
+		margin-bottom: 50px;
+
+		&-logo a:hover {
+			color: $main-color;
+
+		}
+
+	}
+
+	&__grad {
+		position: absolute;
+		bottom: 5%;
+		width: 100%;
+		left: 0;
+		padding: 20px 0;
+		background: rgb(0, 0, 0);
+		background: linear-gradient(95deg, rgba(0, 0, 0, 0.10126057258841037) 0%, rgba(105, 104, 104, 0.2581233176864496) 50%, rgba(247, 244, 240, 0.3085434857536765) 100%);
+		z-index: -1;
+	}
+
+	.nav {
+		padding: 25px 0;
+
+		&__menu {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+
+		&__link:hover {
+			color: $main-color;
+		}
+
+	}
+}

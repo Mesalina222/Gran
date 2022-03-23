@@ -1,0 +1,28 @@
+.gallery {
+	padding: 115px 0 110px;
+	background: url('../img/bl.jpg')center center/ cover no-repeat;
+
+	&__content {
+		text-align: center;
+		margin-bottom: 110px;
+	}
+
+	&__flex {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+	}
+
+	&__col>div:not(:last-child) {
+		margin-bottom: 15px;
+	}
+
+	&__img {
+		border: 1px solid $main-color;
+
+		img:hover {
+			filter: sepia(50%);
+		}
+	}
+}

@@ -1,0 +1,62 @@
+@import 'libs/bootstrap-reboot.min';
+
+
+@import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+
+* {
+	//font-family: 'Archivo', sans-serif;
+
+	//font-family: 'Atma', cursive;
+
+	//	font-family: 'Overpass', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+h1,
+h2,
+h3 {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.contanier {
+	width: 1260px;
+	margin: 0 auto;
+	padding: 0 10px;
+	//	border: 2px solid red
+}
+
+@import 'blocks/_head.scss';
+
+@import 'blocks/_title.scss';
+@import 'blocks/_about.scss';
+@import 'blocks/_block.scss';
+@import 'blocks/_our.scss';
+@import 'blocks/_gallery.scss';
+@import 'blocks/_bookNow.scss';
+
+@import 'blocks/_photo.scss';
+@import 'blocks/_linda.scss';
+@import 'blocks/_enjoy.scss';
+@import 'blocks/_footer.scss';
+@import 'blocks/_menu.scss';
+@import 'blocks/_contact.scss';
+
+
+
+
+
+
+
+@import 'blocks/media.scss';

@@ -1,0 +1,64 @@
+.menu {
+	position: relative;
+	z-index: 1;
+	padding: 200px 0 200px;
+	background-color: #1a1a1a;
+
+
+	&__content {
+		position: relative;
+		z-index: 3;
+	}
+
+	&__title {
+		text-align: center;
+		margin-bottom: 80px;
+	}
+
+	&__subtitle {
+		text-align: center;
+		margin-bottom: 60px;
+	}
+
+	&__grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 50px;
+		margin-bottom: 70px;
+	}
+
+	&__top {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+
+
+		&__price {
+			justify-self: end;
+		}
+	}
+
+	&__logo {
+		text-align: center;
+		margin-bottom: 40px;
+		margin-top: 100px;
+
+		&-logo a:hover {
+			color: $main-color;
+		}
+	}
+
+	&__img2 {
+		position: absolute;
+		top: 72px;
+		left: 12px;
+		z-index: 2;
+	}
+
+	&__img3 {
+		position: absolute;
+		top: 0px;
+		right: -99px;
+		z-index: 2;
+
+	}
+}
