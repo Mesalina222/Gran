@@ -1,0 +1,65 @@
+.modal {
+	padding: 350px 0;
+	background: url('../img/bl.jpg')center center/ cover no-repeat;
+	position: relative;
+	z-index: 2;
+
+	&__items {
+		width: 800px;
+		border: 1px solid $main-color;
+		border-radius: 5%;
+		margin: 0 auto;
+	}
+
+	&__link {
+		display: flex;
+		flex-direction: column;
+		margin-top: 50px;
+		margin-bottom: 50px;
+
+		li {
+			text-align: center;
+
+		}
+
+
+		li:not(:last-child) {
+			margin-bottom: 40px;
+
+		}
+	}
+
+	&__list {
+		text-decoration: none;
+		padding-left: 50px;
+
+		&:hover {
+			color: $main-color;
+		}
+
+	}
+
+	&__menu {
+		background-color: #555554;
+		position: absolute;
+		width: 100%;
+		top: 85px;
+		left: 0;
+		z-index: 50;
+	}
+
+	.nav {
+		padding: 25px 0;
+
+		&__menu {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+
+		&__link:hover {
+			color: $main-color;
+		}
+
+	}
+}

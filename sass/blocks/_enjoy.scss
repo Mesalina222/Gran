@@ -1,0 +1,36 @@
+.enjoy {
+	padding: 120px 0 0;
+	background-color: #1c1c1c;
+	border-bottom: 3px dotted $main-color;
+
+	&__flex {
+		display: flex;
+		align-items: center;
+		margin-bottom: 80px;
+	}
+
+	&__content {
+		flex: 1 1 580px;
+		text-align: center;
+
+		*:not(:last-child) {
+			margin-bottom: 50px;
+		}
+	}
+
+	&__img {
+		width: 610px;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	&__subtext a {
+		color: $main-color;
+
+		&:hover {
+			color: #ffff;
+		}
+	}
+}
